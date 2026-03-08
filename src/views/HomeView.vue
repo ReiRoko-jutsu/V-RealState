@@ -13,7 +13,7 @@ const owner = {
 // --- 2. DATA: LUXURY LISTINGS (Newest First) ---
 const allProperties = ref([
   { id: 1, type: 'Villa', title: 'The Obsidian House', price: 5400000, location: 'Santorini, Greece', beds: 6, baths: 5, sqft: '4,200', img: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=800', isNew: true },
-  { id: 2, type: 'Penthouse', title: 'Skyline Suite', price: 2100000, location: 'Tokyo, Japan', beds: 3, baths: 3, sqft: '2,800', img: 'https://images.unsplash.com/photo-1493397212122-2b85def82820?q=80&w=800', isNew: true },
+  { id: 2, type: 'Penthouse', title: 'Skyline Suite', price: 2100000, location: 'Tokyo, Japan', beds: 3, baths: 3, sqft: '2,800', img: '/skyline.jpg', isNew: true },
   { id: 3, type: 'Estate', title: 'Cedar Ridge', price: 8800000, location: 'Aspen, CO', beds: 8, baths: 7, sqft: '9,500', img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800', isNew: false },
   { id: 4, type: 'Villa', title: 'Azure Bay', price: 3200000, location: 'Malibu, CA', beds: 4, baths: 4, sqft: '3,100', img: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800', isNew: false },
   { id: 5, type: 'Estate', title: 'Emerald Manor', price: 12500000, location: 'Lake Como, Italy', beds: 10, baths: 9, sqft: '12,000', img: 'https://images.unsplash.com/photo-1575517111478-7f6afd0973db?q=80&w=800', isNew: true },

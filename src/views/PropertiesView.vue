@@ -30,7 +30,7 @@ const properties = ref<Property[]>([
     location: 'Tokyo, Japan', beds: 3, inquiries: 89, 
     status: 'Newest', dateAdded: '2026-03-07',
     history: [1.9, 1.95, 2.0, 2.05, 2.1],
-    img: 'https://images.unsplash.com/photo-1493397212122-2b85def82820?q=80&w=800' 
+    img: '/skyline.jpg' 
   },
   { 
     id: 3, type: 'Estate', title: 'Cedar Ridge', price: 8800000, 
